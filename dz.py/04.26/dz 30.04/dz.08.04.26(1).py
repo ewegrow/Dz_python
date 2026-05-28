@@ -1,0 +1,10 @@
+
+number_one = float(input("Введите первое целое число:"))
+number_two = float(input("Введите второе целое число:"))
+number_three = float(input("Введите третье целое число:"))
+print ('Сумма:', number_one + number_two + number_three)
+print ('Разность:',number_one - number_two - number_three)
+print ('Произведение:', number_one * number_two * number_three)
+print ('Первое - второе + третье:', (number_one - number_two) + number_three)
+print ('Первое + второе / третье:', (number_one + number_two) // number_three)
+print ('Остаток от деления:', (number_one + number_two) % number_three)
